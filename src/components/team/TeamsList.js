@@ -6,7 +6,7 @@ const TeamsList = ({ teams }) => {
     const teamsList = teams.map(team => {
         return <tr key={team.id}>
             <td style={{whiteSpace: 'nowrap', textTransform: 'capitalize'}}>
-                <Link to={"/team/" + team.name}>{team.location.city} {team.name}</Link>
+                <Link to={"/teams/" + team.id}>{team.location.city} {team.name}</Link>
             </td>
         </tr>
     })
