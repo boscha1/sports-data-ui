@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Team = ({ team }) => {
-    console.log(team)
     return (
         <div>
             <h3>{team.name}</h3>
