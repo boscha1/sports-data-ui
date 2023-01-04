@@ -1,8 +1,8 @@
 import React from 'react';
 import {useEffect, useState} from "react";
-import Header from "../Header";
 import TeamsList from "./TeamsList";
 import {getTeams} from "../../services/TeamService";
+import NavBar from "../NavBar";
 
 const TeamsPage = () => {
     const [teams, setTeams] = useState([])
@@ -17,7 +17,7 @@ const TeamsPage = () => {
 
     return (
         <h1>
-            <Header />
+            <NavBar />
             <TeamsList teams={teams} />
         </h1>
     );
