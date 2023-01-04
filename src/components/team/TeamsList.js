@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import React from 'react';
 
 
-const TeamsList = ({ teams }) => {
+const TeamsList = ({teams}) => {
     const teamsList = teams.map(team => {
         return <tr key={team.id}>
             <td style={{whiteSpace: 'nowrap', textTransform: 'capitalize'}}>
@@ -14,7 +14,7 @@ const TeamsList = ({ teams }) => {
         <>
             <table>
                 <tbody>
-                    {teamsList}
+                {teamsList}
                 </tbody>
             </table>
         </>

@@ -17,8 +17,8 @@ const TeamsPage = () => {
 
     return (
         <h1>
-            <NavBar />
-            <TeamsList teams={teams} />
+            <NavBar/>
+            <TeamsList teams={teams}/>
         </h1>
     );
 };

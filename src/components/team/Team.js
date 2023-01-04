@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Team = ({ team }) => {
+const Team = ({team}) => {
     return (
         <div>
             <h3 className="text-5xl">{team.name}</h3>

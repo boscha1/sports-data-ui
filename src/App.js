@@ -7,9 +7,9 @@ function App() {
     return (
         <div className="container-fluid">
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/teams" element={<TeamsPage />} />
-                <Route path="/teams/:id" element={<TeamPage />} />
+                <Route path="/" element={<Home/>}/>
+                <Route path="/teams" element={<TeamsPage/>}/>
+                <Route path="/teams/:id" element={<TeamPage/>}/>
             </Routes>
         </div>
     )

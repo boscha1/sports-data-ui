@@ -4,7 +4,7 @@ import {getTeamById} from "../../services/TeamService";
 import Team from "./Team";
 
 const TeamPage = () => {
-    const { id } = useParams()
+    const {id} = useParams()
     const [team, setTeam] = useState({
         id: null,
         name: '',
@@ -40,7 +40,7 @@ const TeamPage = () => {
 
     return (
         <div>
-            <Team team={team} />
+            <Team team={team}/>
         </div>
     );
 };
