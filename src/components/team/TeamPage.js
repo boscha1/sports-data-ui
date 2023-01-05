@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 import {getTeamById} from "../../services/TeamService";
 import Team from "./Team";
+import NavBar from "../NavBar";
 
 const TeamPage = () => {
     const {id} = useParams()
@@ -40,6 +41,7 @@ const TeamPage = () => {
 
     return (
         <div>
+            <NavBar />
             <Team team={team}/>
         </div>
     );
